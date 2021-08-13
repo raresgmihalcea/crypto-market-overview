@@ -1,0 +1,11 @@
+PUT http://localhost:3001/api/coins/test HTTP/1.1
+
+Content-Type: application/json
+{
+    "id": "test",
+    "name": "test",
+    "current_price": "1",
+    "market_cap": "1",
+    "market_cap_rank": "0",
+    "price_change_percentage_24h": "0"
+}
